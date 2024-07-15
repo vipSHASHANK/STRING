@@ -13,12 +13,18 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("🌿 ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ 🌿", url="https://t.me/All_SANATANI_BOT/324")],
+        [InlineKeyboardButton("🕸️ 𝛅ʌηʌᴛʌηɪ ꭙ 𝐔sᴇꝛвσᴛ ️🕸️", url="https://t.me/SANATANI_X_ROBOT")],
         [
             InlineKeyboardButton("❔ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ 🎶", callback_data="about")
         ],
-        [InlineKeyboardButton("❄ ꜱᴜᴘᴘᴏʀᴛ ❄️", url="https://t.me/all_sanatani_bot")],
+        [
+        
+            InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇ's ", url="https://t.me/all_sanatani_bot"),
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ⛈️️", url="https://t.me/+Ckzm2ypQyIIzZTll")
+      
+        ],
+        [InlineKeyboardButton("🌿 ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ 🌿", url="https://t.me/All_SANATANI_BOT/324")],
     ]
 
     START = """
@@ -33,7 +39,7 @@ class Data:
 **ꜱᴛɪʟʟ ʀᴇᴀᴅɪɴɢ..?**
 ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴍᴇ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ (ᴇᴠᴇɴ ᴠᴇʀꜱɪᴏɴ 2) ᴀɴᴅ ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ. ᴜꜱᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ʟᴇᴀʀɴ ᴍᴏʀᴇ !
 
-❖ ʙʏ [sᴀɴᴀᴛᴀɴɪ ᴛᴇᴄʜ](https://t.me/all_sanatani_bot) ☁️
+❖ ʙʏ : [sᴀɴᴀᴛᴀɴɪ ᴛᴇᴄʜ](https://t.me/all_sanatani_bot) 🚩
     """
 
     HELP = """
