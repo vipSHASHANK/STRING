@@ -1,43 +1,42 @@
 {
-    "name": "ꜱ ᴛ ᴏ ʀ ᴍ",
-    "logo": "https://graph.org/file/c3b279aee41f8bbe6466b.jpg",
-    "keywords": [
-        "telegram",
-        "telethon",
-        "telegram-bot",
-        "PythonX",
-        "SpamBots"
-    ],
-    "repository": "https://github.com/SACHINxSANATANI/SESSION-GENERATE",
+  "name": "SANATANI STRING GEN BOT",
+  "description": "A Telegram Bot to generate Telethon and Pyrogram String Sessions.",
+  "logo": "https://te.legra.ph/file/8e779ca298fb47f368f2b.jpg",
+  "keywords": [
+    "telegram",
+    "bot",
+    "python",
+    "pyrogram"
+  ],
     "env": {
-      "API_ID": {
-        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
-        "value": "",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
-        "value": "",
-        "required": true
-      },
-      "BOT_TOKEN": {
-        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
-        "value": "",
-        "required": true
-      },
-      "DATABASE_URL": {
-        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
-        "value": "",
-        "required": true
-      },
-      "MUST_JOIN": {
-        "description": "ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏᴋᴇɴ ɢᴇᴛ ᴛʜɪꜱ ᴠᴀʟᴜᴇ ꜰʀᴏᴍ ʙᴏᴛꜰᴀᴛʜᴇʀ",
-        "value": "",
-        "required": true
-      },
-  "buildpacks": [
+        "BOT_TOKEN": {
+            "description": "Get this value from @BotFather",
+            "required": true
+        },  
+        "MUST_JOIN": {
+            "description": "Username of a group or channel for which you want to set force sub.(without @)",
+            "required": true      
+        }, 
+        "MONGO_URL": {
+            "description": "mongo db url here",
+            "required": true
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "Telegram id of the person who will known as owner of the bot.",
+            "required": true
+        }, 
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        }
+    },
+    "addons": [
         {
-            "url": "heroku/python"
+            "plan": "heroku-postgresql"
         }
     ]
 }
