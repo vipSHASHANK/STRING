@@ -25,8 +25,10 @@ async def start(bot: Client, msg: Message):
 # Help Message
 @Client.on_message(filter("help"))
 async def _help(bot: Client, msg: Message):
-    await bot.send_message(
-        msg.chat.id, Data.HELP,
+    await bot.send_photo(
+        msg.chat.id, 
+        ALIVE_PIC, 
+        Data.HELP,
         reply_markup=InlineKeyboardMarkup(Data.home_buttons)
     )
 
@@ -34,8 +36,9 @@ async def _help(bot: Client, msg: Message):
 # About Message
 @Client.on_message(filter("about"))
 async def about(bot: Client, msg: Message):
-    await bot.send_message(
-        msg.chat.id,
+    await bot.send_photo(
+        msg.chat.id, 
+        ALIVE_PIC,
         Data.ABOUT,
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(Data.home_buttons),
