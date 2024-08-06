@@ -8,6 +8,8 @@ API_HASH = os.getenv("API_HASH", "").strip()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
 MUST_JOIN = os.getenv("MUST_JOIN", "")
+ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/00eaed55184edf059dbf7.jpg")
+
 
 if not API_ID:
     raise SystemExit("ɴᴏ ᴀᴘɪ_ɪᴅ ꜰᴏᴜɴᴅ. ᴇxɪᴛɪɴɢ...")
