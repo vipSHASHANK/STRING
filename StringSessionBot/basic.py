@@ -1,5 +1,7 @@
 from data import Data
 from pyrogram import Client, filters
+from env import ALIVE_PIC
+
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 
