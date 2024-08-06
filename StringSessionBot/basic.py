@@ -16,6 +16,7 @@ async def start(bot: Client, msg: Message):
     mention = user.mention
     await bot.send_message(
         msg.chat.id,
+        ALIVE_PIC,
         Data.START.format(msg.from_user.mention, mention),
         reply_markup=InlineKeyboardMarkup(Data.buttons)
     )
