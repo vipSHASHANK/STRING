@@ -8,3 +8,4 @@ pyrogram>=2,<3
 flask
 gunicorn
 flask_restful
+
