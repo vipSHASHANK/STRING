@@ -8,8 +8,3 @@ pyrogram>=2,<3
 flask
 gunicorn
 flask_restful
-telethon
-cryptg
-motor 
-python-dotenv
-requests
