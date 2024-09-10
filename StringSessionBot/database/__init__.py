@@ -1,7 +1,3 @@
-from env import MONGO_URL
-from logger import LOGGER
-from StringSessionBot.database.mongo import Mongo
-
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, scoped_session
@@ -23,10 +19,3 @@ def start() -> scoped_session:
 if DATABASE_URL != "":
     BASE = declarative_base()
     SESSION = start()
-    
-#----------------------------------------------------------------------------------------
-
-DB = None
-if MONGO_URL:
-    LOGGER(__name__).info('Database Intialised')
-    DB = Mongo(MONGO_URL)
