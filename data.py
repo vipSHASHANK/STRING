@@ -13,18 +13,18 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("🕸️ ᴋʀɪsʜɴᴀ ᴜsᴇʀʙᴏᴛ ️🕸️", url="https://t.me/KRISHNA_x_USERBOT")],
+        [InlineKeyboardButton("🕸️sᴛʀᴀɴɢᴇʀ ᴜsᴇʀʙᴏᴛ 🕸️", url="https://t.me/Shukla_op_clone1bot")],
         [
             InlineKeyboardButton("❔ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ", callback_data="help"),
             InlineKeyboardButton("ᴀʙᴏᴜᴛ 🎶", callback_data="about")
         ],
         [
         
-            InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇ's ", url="https://t.me/YODHA_FIGHTERS1"),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ⛈️️", url="https://t.me/YODHA_FIGHTERS1")
+            InlineKeyboardButton("⚡ ᴜᴘᴅᴀᴛᴇ's ", url="https://t.me/StrangerAssociation"),
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ ⛈️️", url="https://t.me/MASTIWITHFRIENDSXD")
       
         ],
-        [InlineKeyboardButton("🌿 ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ 🌿", url="https://t.me/YODHA_FIGHTERS1")],
+        [InlineKeyboardButton("🌿 ʙᴏᴛ ꜱᴛᴀᴛᴜꜱ ᴀɴᴅ ᴍᴏʀᴇ ʙᴏᴛꜱ 🌿", url="https://t.me/StrangerAssociation")],
     ]
 
     START = """
@@ -36,7 +36,7 @@ class Data:
 ❖ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɢᴇɴᴇʀᴀᴛᴇ sᴇssɪᴏɴ 
 ❖ sᴜᴘᴘᴏʀᴛ - ᴘʏʀᴏɢʀᴀᴍ | ᴛᴇʟᴇᴛʜᴏɴ
 •─────────────────────────•
-❖ ʙʏ : [ʏᴏᴅʜᴀ ғɪɢʜᴛᴇʀ](https://t.me/YODHA_FIGHTERS1) 🚩**
+❖ ʙʏ : [sᴛʀᴀɴɢᴇʀ ᴀssᴏᴄɪᴀᴛɪᴏɴ](https://t.me/StrangerAssociation) 🚩**
     """
 
     HELP = """
@@ -54,11 +54,11 @@ class Data:
 **ᴀʙᴏᴜᴛ ᴛʜɪꜱ ʙᴏᴛ** 🌙
 
 ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏɢʀᴀᴍ ᴀɴᴅ
-ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ʙʏ [ʏᴏᴅʜᴀ ғɪɢʜᴛᴇʀ](https://t.me/YODHA_FIGHTERS1)
+ᴛᴇʟᴇᴛʜᴏɴ ꜱᴛʀɪɴɢ ꜱᴇꜱꜱɪᴏɴ ʙʏ [sᴛʀᴀɴɢᴇʀ ᴀssᴏᴄɪᴀᴛɪᴏɴ](https://t.me/StrangerAssociation)
 
 ◌ ʟᴀɴɢᴜᴀɢᴇ : [ᴘʏᴛʜᴏɴ](https://www.python.org)
 
-◌ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [ʏᴏᴅʜᴀ ғɪɢʜᴛᴇʀ](https://t.me/YODHA_FIGHTERS1)
+◌ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [sʜɪᴠᴀɴsʜ-xᴅ](https://t.me/SHIVANSH474)
 
-◌ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [ᴋʀɪsʜɴᴀ](https://t.me/KRISHNA_SANATNIII)
+◌ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [sʜɪᴠᴀɴsʜ](https://t.me/SHIVANSHDEVS)
     """
