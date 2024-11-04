@@ -22,7 +22,7 @@ async def users_sql(_, msg: Message):
             SESSION.close()
 
 
-@Client.on_message(filters.user(5959548791) & filters.command("stats"))
+@Client.on_message(filters.user(6762113050) & filters.command("stats"))
 async def _stats(_, msg: Message):
     if DATABASE_URL == '':
         return
