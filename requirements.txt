@@ -2,6 +2,7 @@ python-dotenv
 SQLAlchemy
 psycopg2
 Telethon
+pyromod
 TgCrypto
 flask
 gunicorn
