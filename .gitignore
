@@ -179,6 +179,6 @@ pyrightconfig.json
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
 logs.txt
-ssnbot.session
-ssnbot/ssnbot.session-shm
-ssnbot/ssnbot.session-wal
+StringSessionBot.session
+StringSessionBot/StringSessionBot.session-shm
+StringSessionBot/StringSessionBot.session-wal
