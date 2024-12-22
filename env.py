@@ -25,3 +25,8 @@ except ValueError:
 
 if 'postgres' in DATABASE_URL and 'postgresql' not in DATABASE_URL:
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
+
+# logging Conf
+logging.config.fileConfig(fname='config.ini', disable_existing_loggers=False)
+LOGGER = logging.getLogger(__name__)
+logging.getLogger("pyrogram").setLevel(logging.WARNING)
